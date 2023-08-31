@@ -16,9 +16,8 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    """
-    This handler will be called when user sends /start command
-    """
+
+
     await message.reply("Lil KD Botiga Xush Kelibsiz!")
 
 @dp.message_handler(commands=['help'])
